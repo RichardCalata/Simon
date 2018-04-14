@@ -1,0 +1,71 @@
+.main   {
+    text-align: center;
+    margin: 30px;
+}
+
+.controlBody    {
+    background-color: #c7e9ff;
+    height: 100%;
+    width:100%;
+    margin: 0;
+}
+
+.gameBody   {
+    /*background-color: darkorange;*/
+    height: 100%;
+    width:100%;
+    margin: 0;
+
+}
+
+button {
+    border-radius: 12px;
+    width: 90%;
+    display: inline-block;
+}
+
+.quarter     {
+    height: 750px;
+    width: 200px;
+    /*background-color: darkorange;*/
+    margin: 10px;
+    display: inline-block;
+}
+
+.red  {
+    background-color: plum;
+    opacity: .5;
+}
+
+.red-active {
+    background-color: deeppink;
+    opacity: 1;
+}
+
+
+.yellow  {
+    background-color: palegoldenrod;
+}
+
+.yellow-active  {
+    background-color: gold;
+    opactiy: 1;
+}
+
+
+.green  {
+    background-color: lightgreen;
+}
+
+.green-active  {
+    background-color: green;
+    opacity: 1;
+}
+
+.blue  {
+    background-color: cyan;
+}
+
+.blue-active    {
+    background-color: mediumblue;
+}
