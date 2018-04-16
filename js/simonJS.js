@@ -23,7 +23,7 @@ $('.quarter').on('mousedown', function(){
         level= 0;
 
     }
-    if(simonArr.length > 0 && userArr.length == simonArr.length) {
+    if(userArr.length == simonArr.length) {
         level++;
         roundCounter();
         console.log("this is the length of roundCount array "+roundCount);
@@ -37,10 +37,10 @@ $('.quarter').on('mousedown', function(){
 
 
     function roundCounter(){
-        if(userArr.length == simonArr.length){
+        if(simonArr.length> roundCount && userArr.length == simonArr.length){
         roundCount++;
             console.log("round Counter fires");
-            $(".round_count").text("Highest Round " + roundCount);
+            $(".round_count").html("<strong>Highest Round</strong> "  + roundCount);
 
 
         }
@@ -73,7 +73,7 @@ function startGame(){
     // console.log(roundCount[i]);
      colorNumber =  simonArr[i];
      color = $("#" + colorNumber).attr('class').split(' ')[3];
-     // console.log($("#"+colorNumber).attr('class')[3]);
+     console.log($("#"+colorNumber).attr('class')[3]);
      // console.log(color);
      i++;
      lightPanel(colorNumber,color);
