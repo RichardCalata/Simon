@@ -137,7 +137,7 @@ function playerSuccess() {
         $('.btn-lg').addClass('success');
         $('.quarter').addClass('success');
         counter++;
-        if (counter == 2) {
+        if (counter == 1) {
             clearInterval(successTimer);}
         setTimeout(function () {
             $('.btn-lg').removeClass('success');
