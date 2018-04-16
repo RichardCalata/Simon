@@ -75,3 +75,7 @@ button {
 .error  {
     background-color: red !important
 }
+
+.success {
+    background-color: skyblue !important;
+}

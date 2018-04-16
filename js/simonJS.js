@@ -28,6 +28,7 @@ $('.quarter').on('mousedown', function(){
         roundCounter();
         console.log("this is the length of roundCount array "+roundCount);
         userArr =[];
+        playerSuccess();
         // console.log("a very important message")
         setTimeout(function(){
             startGame();
@@ -127,3 +128,21 @@ var errorTimer = setInterval(function() {
     }, 200)
 }, 400)
 }
+
+function playerSuccess() {
+    var counter = 0;
+    var successTimer = setInterval(function () {
+
+
+        $('.btn-lg').addClass('success');
+        $('.quarter').addClass('success');
+        counter++;
+        if (counter == 2) {
+            clearInterval(successTimer);}
+        setTimeout(function () {
+            $('.btn-lg').removeClass('success');
+            $('.quarter').removeClass('success')
+        }, 200)
+    }, 300)
+}
+
