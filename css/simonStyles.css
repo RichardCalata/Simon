@@ -2,7 +2,9 @@
     text-align: center;
     margin: 30px;
 }
-
+ body {
+     background: #b7b7b7;
+ }
 .controlBody    {
     /*background-color: #c7e9ff;*/
     height: 100%;
@@ -10,11 +12,13 @@
     margin: 0;
 }
 
-.gameBody   {
+
+}
+.play   {
     /*background-color: darkorange;*/
     height: 100%;
-    width:100%;
-    margin: 0;
+    width:70%;
+    margin: auto;
 
 }
 
@@ -78,4 +82,17 @@ button {
 
 .success {
     background-color: skyblue !important;
+}
+
+.rotate {
+    transform: rotate(270deg);
+}
+
+.start {
+    font-size: 10em;
+    margin-top: 274px;
+    width: 700px;
+    height: 200px;
+    margin-left: 10px;
+    border-radius: 12px;
 }
