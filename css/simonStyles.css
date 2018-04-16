@@ -4,7 +4,7 @@
 }
 
 .controlBody    {
-    background-color: #c7e9ff;
+    /*background-color: #c7e9ff;*/
     height: 100%;
     width:100%;
     margin: 0;
@@ -22,22 +22,24 @@ button {
     border-radius: 12px;
     width: 90%;
     display: inline-block;
+    margin: 10px;
 }
 
 .quarter     {
-    height: 750px;
+    height: 690px;
     width: 200px;
     /*background-color: darkorange;*/
-    margin: 10px;
+    margin: 20px;
     display: inline-block;
+    border-radius: 12px;
 }
 
 .red  {
     background-color: plum;
-    opacity: .5;
+
 }
 
-.red-active {
+.red-lit {
     background-color: deeppink;
     opacity: 1;
 }
@@ -47,7 +49,7 @@ button {
     background-color: palegoldenrod;
 }
 
-.yellow-active  {
+.yellow-lit  {
     background-color: gold;
     opactiy: 1;
 }
@@ -57,7 +59,7 @@ button {
     background-color: lightgreen;
 }
 
-.green-active  {
+.green-lit {
     background-color: green;
     opacity: 1;
 }
@@ -66,6 +68,10 @@ button {
     background-color: cyan;
 }
 
-.blue-active    {
+.blue-lit    {
     background-color: mediumblue;
+}
+
+.error  {
+    background-color: red !important
 }
