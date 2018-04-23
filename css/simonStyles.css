@@ -3,7 +3,7 @@
     margin: 30px;
 }
  body {
-     background: #b7b7b7;
+     background: #c7c7c7;
  }
 .controlBody    {
     /*background-color: #c7e9ff;*/
@@ -13,7 +13,7 @@
 }
 
 
-}
+
 .play   {
     /*background-color: darkorange;*/
     height: 100%;
@@ -30,7 +30,7 @@ button {
 }
 
 .quarter     {
-    height: 690px;
+    height: 650px;
     width: 200px;
     /*background-color: darkorange;*/
     margin: 20px;
@@ -90,9 +90,12 @@ button {
 
 .start {
     font-size: 10em;
-    margin-top: 274px;
-    width: 700px;
+    margin-top: 250px;
+    width: 650px;
     height: 200px;
     margin-left: 10px;
     border-radius: 12px;
+}
+.gameBody {
+    width: 100%;
 }

@@ -60,7 +60,8 @@ $('.quarter').on('mousedown', function(){
 
 $('.start').on('click', function(){
     level++;
-    startGame()
+    startGame();
+
 });
 
 // starts game
@@ -87,6 +88,10 @@ function startGame(){
 
 }
 
+    $(".start").on("click", function(){
+$(".start").toggle("slide");
+console.log("animation")
+});
 
 function randomNumber(){
     var random = Math.floor(Math.random()*4);
